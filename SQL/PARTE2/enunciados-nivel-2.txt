@@ -1,0 +1,15 @@
+14 -> El nombre y ranking de las peores 5 canciones de la historia, ordenadas de peor a mejor ranking.
+
+15 -> El nombre de todos los albumes de la banda The Beatles.
+
+16 -> El nombre de todas las bandas que tienen al menos un álbum lanzado antes o en el año 1980. (¡que no se repitan las bandas!)
+
+17 -> El nombre y la fecha de los conciertos que se realizaron en el país "Argentina" y que tuvieron lugar antes del año 2010.
+
+18 -> La suma de la duración de todas las canciones de la banda Queen.
+
+19 -> La suma de la duración de todos los álbumes de la banda The Rolling Stones.
+
+20 -> El nombre de los conciertos a los cuales asistió la banda Dire Straits.
+
+21 -> El nombre de las bandas que tienen al menos un álbum con una duración menor a 45 minutos (¡que no se repitan las bandas!).

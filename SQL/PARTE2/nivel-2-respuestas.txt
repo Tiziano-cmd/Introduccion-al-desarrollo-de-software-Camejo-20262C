@@ -1,0 +1,39 @@
+14 - SELECT nombre, ranking FROM canciones
+     ORDER BY ranking DESC
+     LIMIT 5;
+
+15 - SELECT albumes.nombre
+     FROM albumes
+     INNER JOIN bandas ON albumes.banda_id = bandas.id
+     WHERE bandas.nombre = 'The Beatles';
+
+16 - SELECT DISTINCT bandas.nombre
+     FROM bandas
+     INNER JOIN albumes ON bandas.id = albumes.banda_id
+     WHERE albumes.lanzamiento <= 1980;
+
+17 - SELECT conciertos.nombre, conciertos.fecha
+     FROM conciertos
+     WHERE fecha < 2010 AND pais = 'Argentina';
+
+18 - SELECT SUM(canciones.duracion)
+     FROM canciones
+     INNER JOIN bandas ON canciones.banda_id = bandas.id
+     WHERE bandas.nombre = 'Queen';
+
+19 - SELECT SUM(albumes.duracion)
+     FROM albumes
+     INNER JOIN bandas ON albumes.banda_id = bandas.id
+     WHERE bandas.nombre = 'The Rolling Stones';
+
+20 - SELECT conciertos.nombre
+     FROM conciertos
+     INNER JOIN conciertos_musicos ON conciertos.id = conciertos_musicos.concierto_id
+     INNER JOIN bandas ON conciertos_musicos.banda_id = bandas.id
+     WHERE bandas.nombre = 'Dire Straits';
+
+21 - SELECT bandas.nombre
+     FROM bandas
+     INNER JOIN albumes ON albumes.banda_id = bandas.id
+     WHERE albumes.duracion < 45;
+  
