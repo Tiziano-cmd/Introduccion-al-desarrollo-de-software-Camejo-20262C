@@ -1,0 +1,7 @@
+10 -> El nombre y el país de origen de todas las bandas que tienen exactamente 5 integrantes.
+
+11 -> El nombre y la duración de todos los álbumes que tienen una duración mayor a 40 minutos.
+
+12 -> El nombre y la duración de todas las canciones que tienen una duración menor o igual a 3 minutos.
+
+13 -> El nombre y la fecha de todos los conciertos que se realizaron en el país "Argentina".

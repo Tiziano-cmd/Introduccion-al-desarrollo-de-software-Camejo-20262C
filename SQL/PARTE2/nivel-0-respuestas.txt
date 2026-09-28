@@ -1,0 +1,22 @@
+(1) SELECT * FROM bandas;
+
+(2) SELECT nombre, pais_origen FROM bandas;
+
+(3) SELECT nombre, fecha_creacion FROM bandas
+    ORDER BY fecha_creacion DESC;
+
+(4) SELECT nombre, pais_origen FROM bandas WHERE genero = 'Rock';
+
+(5) SELECT * FROM albumes;
+
+(6) SELECT nombre,duracion FROM albumes
+    ORDER BY nombre;
+
+(7) SELECT ranking, nombre FROM albumes
+    ORDER BY ranking ASC;
+
+(8) SELECT nombre, duracion FROM canciones
+    ORDER BY duracion DESC;
+
+(9) SELECT nombre, fecha FROM conciertos
+    ORDER BY fecha ASC;

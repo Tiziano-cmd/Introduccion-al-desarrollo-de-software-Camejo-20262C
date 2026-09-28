@@ -1,0 +1,7 @@
+10 - SELECT nombre, pais_origen FROM bandas WHERE cant_integrantes = 5;
+
+11 - SELECT nombre, duracion FROM albumes WHERE duracion > 40;
+
+12 - SELECT nombre, duracion FROM canciones WHERE duracion <= 3;
+
+13 - SELECT nombre, fecha FROM conciertos WHERE pais = 'Argentina';
